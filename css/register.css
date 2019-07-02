@@ -1,0 +1,42 @@
+.header {
+	height: 84px;
+	border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+	padding-top: 15px;
+}
+
+.main {
+	height: 520px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+
+.main_hd {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	background-color: #ececec;
+	padding: 0 10px;
+}
+
+.main_hd h3 {
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 400; 
+}
+
+.main_hd em {
+	float: right;
+	font-size: 14px;
+}
+
+.main_hd a {
+	color: #c81623;
+}
+
+.zhuce {
+	width: 600px;
+	height: 400px;
+	margin: 40px  auto;
+}

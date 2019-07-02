@@ -1,0 +1,314 @@
+.de_container {
+	margin-top: 20px;
+}
+
+.crumb_wrap a {
+	margin-right: 10px;
+}
+
+.product_intro {
+	margin-top: 10px;
+}
+
+.preview_wrap {
+	position: relative;
+	width: 400px;
+	height: 590px;
+}
+.preview_img {
+	height: 398px;
+	border:  1px solid #ccc ;
+}
+
+.itemInfo_wrap {
+	width: 718px;
+
+}
+
+.preview_list {
+	position: relative;
+	height: 60px;
+	margin-top: 60px;	
+}
+
+.list_item {
+	width: 320px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.list_item li {
+	float: left;
+	width: 56px;
+	height: 56px;
+	border: 2px solid transparent;
+	padding: 0 2px;
+}
+
+.preview_list .current {
+	border-color: #c81623;
+}
+
+.arrow_prew,
+.arrow_naxt {
+	position: absolute;
+	top: 15px;
+}
+
+.arrow_prew {
+	left: 0;
+}
+.arrow_naxt {
+	right: 0;
+}
+
+.sku_name {
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.news {
+	height: 32px;
+	font-size: 12px;
+	color: #e12228;
+}
+
+.summary dl {
+	position: relative;
+	overflow: hidden;
+}
+.summary_price, 
+.summary_promotion {
+	padding: 10px 0;
+	background-color: #fee9eb;
+}
+
+.summary dt {
+	float: left;
+	width: 60px;
+	line-height: 36px;
+	padding-left: 10px;		
+}
+
+.summary dd {
+	float: left;
+}
+
+.price i {
+	font-size: 24px;
+	color: #c81623;
+	line-height: 36px;
+}
+
+.price a {
+	margin-left: 5px;
+	color: #c81623;
+}
+
+.remark {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	margin-right: 10px;
+}
+
+.summary_promotion {
+	padding-top: 0;
+}
+
+.summary_promotion dd {
+	width: 450px;
+	line-height: 36px;
+}
+.summary_promotion em {
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 22px;
+	color: #fff;
+}
+
+.summary_support dd {
+	line-height: 36px;
+}
+
+.choose_color a {
+	display: inline-block;
+	width: 80px;
+	height: 41px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 41px;
+}
+
+.ch_version {
+	margin: 10px 0;
+}
+
+.ch_version a ,
+.ch_type a {
+	display: inline-block;
+	height: 32px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	padding: 0 12px;
+	text-align: center;
+	line-height: 32px;
+}
+
+.choose_btns {
+	margin-top: 20px;
+}
+
+.ch_amount {
+	position: relative;
+	width: 50px;
+	height: 46px;
+	background-color: pink;
+}
+
+.ch_amount input {
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.add,
+.reduce {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	text-align: center;
+	line-height: 22px;
+}
+
+.addcar {
+	top: 0;
+}
+
+.reduce {
+	bottom: 0;
+	cursor: not-allowed;
+}
+
+.addcar {	
+	width: 142px;
+	height: 46px;
+	margin-left: 10px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 46px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.summary .current {
+	border-color:  #c81623;
+}
+
+.product_detail {
+	margin-bottom: 50px;
+}
+
+.aside {
+	width: 208px;
+	border: 1px solid #ccc;
+}
+
+.tab_list li {
+	float: left;
+	height: 33px;
+	background-color: #f1f1f1;
+	text-align: center;
+	line-height: 33px;
+}
+
+
+.tab_list  .fenlei {
+	width: 104px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.tab_list .current {
+	width: 103px;
+	background-color: #fff;
+	color: red;
+}
+
+.tab_con {
+	padding: 0 10px;
+}
+
+.tab_con  li {
+	border-bottom: 1px solid #ccc;
+
+}
+ 
+.tab_con h5  {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 400;
+}
+
+.aside_price {
+	font-weight: 700;
+	margin:  10px 0;
+}
+
+.as_addcar {
+	display: block;
+	width: 88px;
+	height: 26px;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 26px;
+}
+
+.detail {
+	width: 978px;
+}
+
+.detail_tab_list {
+	height: 39px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.detail_tab_list li {
+	float: left;
+	height: 39px;
+	padding: 0 20px;
+	text-align: center;
+	line-height: 39px;
+}
+
+.detail_tab_list .current {
+	background-color: #c81623;
+}
+.detail_tab_list .current a {
+	color: #fff;
+}
+
+.item ul {
+	padding: 20px 0 0 20px;
+	line-height: 22px;
+}
+
+.more { 
+	font-weight: 700;
+	font-family: 'icomoon';
+}
